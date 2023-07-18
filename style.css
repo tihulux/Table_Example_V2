@@ -1,0 +1,20 @@
+.container {
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  margin-top: 30px;
+  margin-left: 120px;
+  width: 500px;
+  font-size: large;
+  border: 1px solid black;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyTable v2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="db">
+        <input type="text" id="search" placeholder="Search" />
+        <input type="text" id="employeeName" placeholder="Employee Name" />
+        <input type="text" id="employeeAge" placeholder="Employee Age" />
+        <input type="text" id="employeeSalary" placeholder="Salary" />
+        <input type="button" id="sub" value="Submit" />
+
+        <table>
+          <thead>
+            <th>Employee Name</th>
+            <th>Employee Age</th>
+            <th>Salary</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </thead>
+
+          <tbody id="tableBody">
+            <tr>
+              <td>Tihulu</td>
+              <td>31</td>
+              <td>2750</td>
+              <td><input type="button" id="editButton" value="Edit" /></td>
+              <td><input type="button" id="deleteButton" value="Delete" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
